@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Generator</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+<link rel="stylesheet" href="uzduotis1.css">	
+</head>
+<body>
+    <h1>Password generator</h1>
+
+    <div class="inputContainer1">
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" min="4" max="20">
+    </div>
+
+    <div class="inputContainer2">
+        <label for="uppercase">Include Uppercase Letters</label>
+        <input type="checkbox" id="uppercase">
+    </div>
+
+    <div class="inputContainer3">
+        <label for="numbers">Include Numbers</label>
+        <input type="checkbox" id="numbers">
+    </div>
+
+    <div class="inputContainer4">
+        <label for="symbols">Include Symbols</label>
+        <input type="checkbox" id="symbols">
+    </div>
+
+    <div class="buttonContainer">
+        <button id="generate">Generate Password</button>
+    </div>
+    <div class="buttonCopy">
+        <input type="text" id="outputCode">
+        <button id="copy">Copy</button>
+    </div>
+
+    <script src="uzduotis1.js"></script>    
+
+</body>
+
+</html>
